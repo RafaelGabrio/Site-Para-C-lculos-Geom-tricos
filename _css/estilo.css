@@ -1,0 +1,41 @@
+header{
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+body {
+    background: url("../_imagens/blur.jpg") no-repeat;
+    background-color: #000000;
+}
+
+section p#maisinfo {
+    color: #ffffff;
+    text-align: center;
+}
+
+div#texto {
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 80px;
+}
+
+div#interacao {
+    border-radius: 40px;
+    border: rgb(179, 255, 0) solid 8px;
+    margin: auto;
+    background-color: #ffffff;
+    width: 800px;
+    height: 442px;
+}
+
+article{
+    color: #ffffff;
+    height: 800px;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+}
