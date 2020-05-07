@@ -21,6 +21,15 @@ header span {
     float: right;
 }
 
+header span a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header span a:hover {
+    color: #e6e6e6;
+}
+
 /*Tudo que está relacionado ao Body*/
 body {
     background: url("../_imagens/blur.jpg") fixed no-repeat;
@@ -30,13 +39,20 @@ body {
 
 p#maisinfo{
     text-align: center;
-    margin-top: -18px;
+    margin-top: 30px;
     font-family: 'Comfortaa', cursive;
 }
 
-p#maisinfo img {
-    float: top;
-    
+img#iconBaixo {
+    width: 50px;
+    position: absolute;
+    left: 645px;
+    top: 605px;
+}
+
+img#iconBaixo:hover {
+    transition: opacity 1s;
+    top: 610px;
 }
 
 /*Tudo que está relacionado a Section#principal*/
@@ -83,5 +99,6 @@ article{
 
 /*Tudo que está relacionado ao footer*/
 footer{
+    font-family: Arial, cursive;
     text-align: center;
 }
