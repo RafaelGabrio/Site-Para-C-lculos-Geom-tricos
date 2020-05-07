@@ -69,15 +69,6 @@ div#texto {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
 }
 
-div#interacao {
-    border-radius: 40px;
-    border: rgb(186, 255, 25) solid 8px;
-    margin: auto;
-    background-color: #ffffff;
-    width: 800px;
-    height: 442px;
-}
-
 div#texto h1 {
     font-family: 'TituloGiz', sans-serif;
     padding: 7px 0px 0px 15px;
@@ -90,6 +81,34 @@ div#texto p#info {
     padding: 4px;
     margin-top: -20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+    font-size: 14pt;
+}
+
+div#interacao {
+    border-radius: 40px;
+    border: rgb(186, 255, 25) solid 8px;
+    margin: auto;
+    background-color: #ffffff;
+    width: 800px;
+    height: 442px;
+}
+
+div#interacao iframe {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    left: 50px;
+    top: 20px;
+    border: none;
+}
+
+div#interacao input{
+    position: relative;
+    left: 52px;
+    top: 60px;
+    background-color: rgb(186, 255, 25);
+    border-radius: 100px;
+    padding: 6px;
 }
 
 /*Tudo que está relacionado ao article*/
