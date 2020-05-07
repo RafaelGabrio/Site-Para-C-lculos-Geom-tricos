@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); /*a font-family é 'Comfortaa', cursive*/
+@font-face {
+    font-family: 'TituloGiz';
+    src: url("../_fonts/Chalk-hand-lettering-shaded_DEMO.otf");
+}
+
 header{
     margin-bottom: 30px;
     color: #ffffff;
 }
 
 body {
-    background: url("../_imagens/blur.jpg") no-repeat;
+    background: url("../_imagens/blur.jpg") fixed no-repeat;
     background-color: #000000;
 }
 
