@@ -1,47 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); /*a font-family é 'Comfortaa', cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
 @font-face {
     font-family: 'TituloGiz';
     src: url("../_fonts/Chalk-hand-lettering-shaded_DEMO.otf");
 }
 
+/*Tudo que está relacionado ao header*/
 header{
-    margin-bottom: 30px;
+    margin: -5px -5px 5px -5px;
     color: #ffffff;
+    background-color: rgb(255, 86, 24);
+    height: 22px;
+    padding: 6px 4px 0px 4px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10pt;
 }
 
+header span {
+    display: block;
+    float: right;
+}
+
+/*Tudo que está relacionado ao Body*/
 body {
     background: url("../_imagens/blur.jpg") fixed no-repeat;
     background-color: #000000;
+    color: #ffffff;
 }
 
-section p#maisinfo {
-    color: #ffffff;
+p#maisinfo{
+    text-align: center;
+    margin-top: -18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+p#maisinfo img {
+    float: top;
+    
+}
+
+/*Tudo que está relacionado a Section#principal*/
+section#principal p#maisinfo {
     text-align: center;
 }
 
 div#texto {
-    margin: auto;
-    margin-bottom: 20px;
-    background-color: aquamarine;
-    width: 400px;
-    height: 80px;
+    margin: auto 280px 10px auto;
+    background-color: rgb(24, 255, 205);
+    width: 500px;
+    height: 95px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
 }
 
 div#interacao {
     border-radius: 40px;
-    border: rgb(179, 255, 0) solid 8px;
+    border: rgb(186, 255, 25) solid 8px;
     margin: auto;
     background-color: #ffffff;
     width: 800px;
     height: 442px;
 }
 
+div#texto h1 {
+    font-family: 'TituloGiz', sans-serif;
+    padding: 7px 0px 0px 15px;
+    font-size: 16pt;
+    text-shadow: 1px 1px 1px black;
+}
+
+div#texto p#info {
+    font-family: 'Pacifico', cursive;
+    padding: 4px;
+    margin-top: -20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
+}
+
+/*Tudo que está relacionado ao article*/
 article{
-    color: #ffffff;
     height: 800px;
 }
 
+/*Tudo que está relacionado ao footer*/
 footer{
-    color: #ffffff;
     text-align: center;
 }
