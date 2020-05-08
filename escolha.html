@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="_javascript/funcoes.js"></script>
     <title>Area de Escolhas</title>
-    <style>
-        body {
-            overflow: hidden;
-        }
-    </style>
+    <link rel="stylesheet" href="_css/escolha.css">
 </head>
 <body>
 <section>
-    Aqui entra a imagem da figura geométrica
-    <label for="escQuad">Quadrado</label><input type="radio" name="escForma" id="escQuad"/>
-    <label for="escTriang">Triângulo</label><input type="radio" name="escForma" id="escTriang"/>
-    <label for="escCirc">Círculo</label><input type="radio" name="escForma" id="escCirc"/>
-    <label for="escRetang">Retângulo</label><input type="radio" name="escForma" id="escRetang"/>
-    <label for="escParal">Paralelogramo</label><input type="radio" name="escForma" id="escParal"/>
-    <label for="escTrap">Trapézio</label><input type="radio" name="escForma" id="escTrap"/>
+    <p id="representacao"><img id="imgrepre" src="_imagens/msgFormat.png" alt="Será Exbido Uma Figura Geométrica"></p>
+
+    <p id="opcoes1">
+    <label for="escQuad">Quadrado</label><input type="radio" name="escForma" id="escQuad" onclick="selecao('quad')"/>
+    <label for="escTriang">Triângulo</label><input type="radio" name="escForma" id="escTriang" onclick="selecao('triang')"/>
+    <label for="escCirc">Círculo</label><input type="radio" name="escForma" id="escCirc" onclick="selecao('circ')"/>
+    <label for="escRetang">Retângulo</label><input type="radio" name="escForma" id="escRetang" onclick="selecao('retang')"/>
+    <label for="escParal">Paralelogramo</label><input type="radio" name="escForma" id="escParal" onclick="selecao('paral')"/>
+    <label for="escTrap">Trapézio</label><input type="radio" name="escForma" id="escTrap" onclick="selecao('trap')"/></p>
 </section>
 </body>
 </html>

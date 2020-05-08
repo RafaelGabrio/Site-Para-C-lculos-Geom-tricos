@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); /*a font-family é 'Comfortaa', cursive*/
+
+body {
+    overflow: hidden;
+}
+
+img#imgrepre {
+    width: 250px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+p#representacao {
+    position: relative;
+    left: 220px;
+    top: 10px;
+}
+
+p#opcoes1 {
+    position: fixed;
+    top: 300px;
+    left: 100px;
+    font-family: 'Comfortaa', cursive;
+    margin: 5px;
+    padding: 5px;
+}

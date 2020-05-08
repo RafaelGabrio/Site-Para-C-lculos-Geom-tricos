@@ -39,20 +39,20 @@ body {
 
 p#maisinfo{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 2px;
     font-family: 'Comfortaa', cursive;
+    margin: auto;
 }
 
 img#iconBaixo {
     width: 50px;
-    position: absolute;
-    left: 645px;
-    top: 605px;
+    position: relative;
+    left: 200px;
+    top: -5px;
 }
 
-img#iconBaixo:hover {
-    transition: opacity 1s;
-    top: 610px;
+p#maisinfo:hover img#iconBaixo{
+    top: 1px;
 }
 
 /*Tudo que está relacionado a Section#principal*/
