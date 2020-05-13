@@ -1,32 +1,8 @@
 let cont = 0;
-let quad = document.getElementById('escQuad');
-let triang = document.getElementById('escTriang');
-let circ = document.getElementById('escCirc');
-let retang = document.getElementById('escRetang');
-let paral = document.getElementById('escParal');
-let trap = document.getElementById('escTrap');
+let op = 'null';
+let jsonVal = '';
 
-function escolha() {
-    if (cont == 0){
-        if(quad.click) {
-            montaCalc(1);
-        } else if (triang.click) {
-            montaCalc(2);
-        } else if (circ.click) {
-            montaCalc(3);
-        } else if (retang.click) {
-            montaCalc(4);
-        } else if (paral.click) {
-            montaCalc(5);
-        } else if (trap.click) {
-            montaCalc(6);
-        }
-    } else if(true) {
-
-    }
-}
-
-function selecao(escolha) {
+function selecaoFig(escolha) {
     let img = document.getElementById('imgrepre');
     switch (escolha) {
         case 'quad':
@@ -46,10 +22,44 @@ function selecao(escolha) {
             break;
         case 'trap':
             img.src = '../_imagens/trap.png';
-            break;    
+            break;     
     }
+    op = escolha;
+    cont++;
+    jsonVal = JSON.stringify(op);
+    window.alert(`esc = ${JSON.parse(jsonVal)} cont = ${cont}`);
+}
 
-    function montaCalc(opcao) {
-        
+function selecionarOp() {
+    window.alert('Chegou');
+    var resul = JSON.parse(jsonVal);
+    window.alert(`Retorno do cont = ${resul.op}`);
+    switch(cont) {
+        case 1:
+            this.montaCalc();
+            break;
+    }
+}
+
+function montaCalc() {
+    switch(op){
+        case 'quad':
+            window.alert('Passou no teste');
+            break;
+        case 'triang':
+            img.src = '../_imagens/triang.jpg';
+            break;
+        case 'circ':
+            img.src = '../_imagens/circ.png';
+            break;
+        case 'retang':
+            img.src = '../_imagens/retang.jpg';
+            break;
+        case 'paral':
+            img.src = '../_imagens/paral.png';
+            break;
+        case 'trap':
+            img.src = '../_imagens/trap.png';
+            break; 
     }
 }

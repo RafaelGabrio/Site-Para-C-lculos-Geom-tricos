@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="_css/estilo.css"/>
+    <script src="_javascript/funcoes.js"></script>
 </head>
 
 <body>
@@ -14,11 +15,11 @@
 <section id="principal">
     <div id="texto">
         <h1>Escolha do Polígono</h1>
-        <p id="info">Comece escolhendo a forma geométrica para calcular a área!</p>
+        <p id="info">Comece escolhendo a forma geométrica para calcular a área!<br>Clique na Seta Para Prosseguir.</p>
     </div>
-    <div id="interacao" >
-        <iframe src="escolha.html"></iframe>
-        <input type="image" src="_imagens/btnEnviar.png" alt="Enviar" oninput="escolha()"/>
+    <div id="interacao">
+        <iframe src="escolha.html" id="iframeInteracao"></iframe>
+        <input type="image" src="_imagens/btnEnviar.png" alt="Enviar" onclick="selecionarOp()"/>
     </div>
 </section>
 

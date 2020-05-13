@@ -64,7 +64,7 @@ div#texto {
     margin: auto 280px 10px auto;
     background-color: rgb(24, 255, 205);
     width: 500px;
-    height: 95px;
+    height: 115px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
 }
@@ -81,7 +81,8 @@ div#texto p#info {
     padding: 4px;
     margin-top: -20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
-    font-size: 14pt;
+    font-size: 13pt;
+    line-height: 100%;
 }
 
 div#interacao {
@@ -90,7 +91,7 @@ div#interacao {
     margin: auto;
     background-color: #ffffff;
     width: 800px;
-    height: 442px;
+    height: 420px;
 }
 
 div#interacao iframe {
