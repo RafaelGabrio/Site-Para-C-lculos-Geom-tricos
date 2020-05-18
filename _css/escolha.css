@@ -16,15 +16,15 @@ img#imgrepre {
 
 p#representacao {
     position: relative;
-    left: 220px;
-    top: 10px;
+    left: 35%;
+    top: 50%;
 }
 
 div#opcoes1 {
     position: fixed;
     top: 300px;
-    left: 100px;
+    left: 10%;
     font-family: 'Comfortaa', cursive;
-    margin: 5px;
+    margin: auto;
     padding: 5px;
 }

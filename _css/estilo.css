@@ -61,12 +61,14 @@ section#principal p#maisinfo {
 }
 
 div#texto {
-    margin: auto 280px 10px auto;
+    left: 42%;
+    margin-bottom: 5px;
     background-color: rgb(24, 255, 205);
-    width: 500px;
+    width: 38%;
     height: 115px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+    position: relative;
 }
 
 div#texto h1 {
@@ -90,23 +92,21 @@ div#interacao {
     border: rgb(186, 255, 25) solid 8px;
     margin: auto;
     background-color: #ffffff;
-    width: 800px;
+    width: 60%;
     height: 420px;
 }
 
 div#interacao iframe {
     position: relative;
-    width: 700px;
+    width: 100%;
     height: 400px;
-    left: 50px;
-    top: 20px;
-    border: none;
+    /*border: none;*/
 }
 
 div#interacao input{
     position: relative;
-    left: 52px;
-    top: 60px;
+    left: 95%;
+    top: -20px;
     background-color: rgb(186, 255, 25);
     border-radius: 100px;
     padding: 6px;
