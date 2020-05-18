@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); /*a font-family é 'Comfortaa', cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
+
+body {
+    background: url("../_imagens/blur.jpg") no-repeat fixed;
+    background-color: black;
+    font-size: 13pt;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+form{
+    background-color: rgba(0, 255, 213, 0.4);
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form p {
+    margin: 8px;
+}
+
+fieldset {
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.area {
+    font-family: 'Pacifico', cursive;
+    font-size: 12pt;
+    color: gray;
+    outline: 0; /*Tira a borda quando selecionado*/
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+input#btnEnviarForm {
+    border-radius: 100px;
+    background-color: rgb(186, 255, 25);
+    padding: 2px;
+    margin-top: 10px;
+    position: relative;
+    left: 94%;
+}

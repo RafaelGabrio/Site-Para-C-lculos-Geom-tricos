@@ -16,8 +16,7 @@ img#imgrepre {
 
 p#representacao {
     position: relative;
-    left: 35%;
-    top: 50%;
+    text-align: center;
 }
 
 div#opcoes1 {
