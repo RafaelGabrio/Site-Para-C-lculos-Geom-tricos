@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_CSS/form.css">
     <link rel="stylesheet" href="_CSS/estilo.css">
+    <script src="_javascript/funcoes.js"></script>
     <title>Entre Em Contato</title>
 </head>
 <body>
-    <header><span><a href="index.html">Voltar ao Início</a> | <a href="https://www.facebook.com/rafael.gabrio.3" target="_blank">Facebook</a> | <a href="https://twitter.com/RafaelGabrioL" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/rafael-g%C3%A1brio-1ab8491a1/" target="_blank">Linkedin</a></span></header>
+    <header><a href="index.html">< Voltar ao Início</a> <a href="formulario.html"><img src="_imagens/icone-mail.png"></a><a href="https://www.facebook.com/rafael.gabrio.3" target="_blank"><img src="_imagens/icone_face.png"></a><a href="https://twitter.com/RafaelGabrioL" target="_blank"><img src="_imagens/icone_twitter.png"></a><a href="https://www.linkedin.com/in/rafael-g%C3%A1brio-1ab8491a1/" target="_blank"><img src="_imagens/icone_in.png"></a></header>
 
     <form method="POST" action="mailto:rafaelgabriosi@gmail.com">
     <!--Adiciona uma borda retangular com o texto da tag legend-->
@@ -17,12 +18,12 @@
         <!--Adiciona uma caixa de texto para inserção do nome-->
         <p><label for="txtNome">Nome: </label><input type="text" name="txtNome" id="txtNome" size="35" class="area"/></p>
         <!--Adicona uma pergunta e seletores para sim ou não referente ao contato com o remetente-->
-        <p><label for="rdEscS">Deseja receber um e-mail e/ou sms em resposta ao seu contato? </label>Sim<input type="radio" name="rdEsc" id="rdEscS" checked class="area"/>
-         Não<input type="radio" name="rdEsc" id="rdEscN" class="area"></p>
+        <p><label for="rdEscS">Deseja receber um e-mail e/ou sms em resposta ao seu contato? </label>Sim<input type="radio" name="rdEsc" id="rdEscS" class="area" onclick="habilitaEmailTel()"/>
+         Não<input type="radio" name="rdEsc" checked id="rdEscN" class="area" onclick="desabilitaEmailTel()"></p>
         <!--Adiciona uma caixa para inserção do e-mail. Só será habilitada caso a resposta acima seja 'Sim'-->
-        <p><label for="txtEmail">E-mail: </label><input type="email" name="txtEmail" id="txtEmail" size="25" placeholder="exemplo@exemplo.com.br" readonly class="area"/></p>
+        <p><label for="txtEmail">E-mail: </label><input type="email" name="txtEmail" id="txtEmail" size="25" placeholder="exemplo@exemplo.com.br" disabled class="area"/></p>
         <!--Adiciona uma caixa para inserção do número. Só será habilitada caso a resposta acima seja 'Sim'-->
-        <p><label for="txtTel">Número de Telefone: </label><input type="tel" name="txtTel" id="txtTel" maxlength="14" placeholder="(##)999999999" readonly class="area"/></p>
+        <p><label for="txtTel">Número de Telefone: </label><input type="tel" name="txtTel" id="txtTel" maxlength="14" placeholder="(##)999999999" disabled class="area"/></p>
         </fieldset>
         <!--Adiciona uma borda retangular com o texto da tag legend-->
         <fieldset><legend>Deixe Aqui Sua Mensagem</legend>

@@ -14,8 +14,9 @@ form{
     padding: 8px;
     border-radius: 8px;
     font-weight: bold;
-    color: black;
+    color: white;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px black;
 }
 
 form p {
@@ -30,11 +31,16 @@ fieldset {
 .area {
     font-family: 'Pacifico', cursive;
     font-size: 12pt;
-    color: gray;
+    color: rgb(65, 65, 65);
     outline: 0; /*Tira a borda quando selecionado*/
     border-radius: 10px;
     border: 2px solid black;
 }
+
+/*Altera a cor do placeholder dos inputs*/
+::-webkit-input-placeholder {
+    color: rgb(206, 206, 206);
+ }
 
 input#btnEnviarForm {
     border-radius: 100px;

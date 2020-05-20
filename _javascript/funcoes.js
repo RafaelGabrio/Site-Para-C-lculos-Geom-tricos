@@ -63,3 +63,20 @@ function montaCalc() {
             break; 
     }
 }
+
+//Tudo que é do form
+function habilitaEmailTel() {
+    let caixaEmail = document.querySelector('input#txtEmail');
+    let caixaTel = document.querySelector('input#txtTel');
+
+    caixaEmail.removeAttribute('disabled');
+    caixaTel.removeAttribute('disabled');
+}
+
+function desabilitaEmailTel() {
+    let caixaEmail = document.querySelector('input#txtEmail');
+    let caixaTel = document.querySelector('input#txtTel');
+
+    caixaEmail.setAttribute('disabled', 'disabled');
+    caixaTel.setAttribute("disabled", "disabled");
+}

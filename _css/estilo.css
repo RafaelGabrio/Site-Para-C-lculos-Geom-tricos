@@ -14,20 +14,14 @@ header{
     padding: 6px 4px 0px 4px;
     font-family: 'Comfortaa', cursive;
     font-size: 10pt;
-}
-
-header span {
-    display: block;
-    float: right;
-}
-
-header span a {
+    border-radius: 2px;
     text-decoration: none;
-    color: #ffffff;
 }
 
-header span a:hover {
-    color: #e6e6e6;
+header img {
+    position: relative;
+    float: right;
+    top: -8px;
 }
 
 /*Tudo que está relacionado ao Body*/
