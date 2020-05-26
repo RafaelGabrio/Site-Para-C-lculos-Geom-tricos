@@ -2,31 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*font-family: 'Pacifico', cursive;*/
 @font-face {
     font-family: 'TituloGiz';
-    src: url("../_fonts/Chalk-hand-lettering-shaded_DEMO.otf");
+    src: url("../fonts/Chalk-hand-lettering-shaded_DEMO.otf");
 }
 
 /*Tudo que está relacionado ao header*/
 header{
     margin: -5px -5px 5px -5px;
-    color: #ffffff;
-    background-color: rgb(255, 86, 24);
+    background-color: rgb(24, 255, 205);
     height: 22px;
     padding: 6px 4px 0px 4px;
-    font-family: 'Comfortaa', cursive;
-    font-size: 10pt;
     border-radius: 2px;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: .5px .5px 2px black;
+}
+
+header a {
+    color: white;
     text-decoration: none;
 }
 
-header img {
-    position: relative;
+header ul {
+    list-style: none;
     float: right;
-    top: -8px;
+    position: relative;
+    top: -24px;
 }
+header li {
+    display: inline-block;
+}
+
+
 
 /*Tudo que está relacionado ao Body*/
 body {
-    background: url("../_imagens/blur.jpg") fixed no-repeat;
+    background: url("../img/blur.jpg") fixed no-repeat;
     background-color: #000000;
     color: #ffffff;
 }
@@ -36,6 +45,12 @@ p#maisinfo{
     margin-top: 2px;
     font-family: 'Comfortaa', cursive;
     margin: auto;
+}
+
+p#maisinfo a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
 img#iconBaixo {
@@ -57,7 +72,7 @@ section#principal p#maisinfo {
 div#texto {
     left: 42%;
     margin-bottom: 5px;
-    background-color: rgb(24, 255, 205);
+    background-color: rgb(255, 86, 24);
     width: 38%;
     height: 115px;
     border-radius: 10px;
@@ -70,6 +85,7 @@ div#texto h1 {
     padding: 7px 0px 0px 15px;
     font-size: 16pt;
     text-shadow: 1px 1px 1px black;
+    letter-spacing: 1.5px;
 }
 
 div#texto p#info {
@@ -79,6 +95,7 @@ div#texto p#info {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.541);
     font-size: 13pt;
     line-height: 100%;
+    letter-spacing: .8px;
 }
 
 div#interacao {

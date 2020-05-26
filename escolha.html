@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="_javascript/funcoes.js"></script>
+    <script src="javascript/funcoes.js"></script>
     <title>Area de Escolhas</title>
-    <link rel="stylesheet" href="_css/escolha.css">
+    <link rel="stylesheet" href="css/escolha.css">
 </head>
 <body>
 <section>
-    <p id="representacao"><img id="imgrepre" src="_imagens/msgFormat.png" alt="Será Exibido Uma Instrutiva "></p>
+    <p id="representacao"><img id="imgrepre" src="img/msgFormat.png" alt="Será Exibido Uma Instrutiva "></p>
 
+    <div>
     <div id="opcoes1">
     <label for="escQuad">Quadrado</label><input type="radio" name="escForma" id="escQuad" onclick="selecaoFig('quad')"/>
     <label for="escTriang">Triângulo</label><input type="radio" name="escForma" id="escTriang" onclick="selecaoFig('triang')"/>
@@ -18,10 +19,16 @@
     <label for="escRetang">Retângulo</label><input type="radio" name="escForma" id="escRetang" onclick="selecaoFig('retang')"/>
     <label for="escParal">Paralelogramo</label><input type="radio" name="escForma" id="escParal" onclick="selecaoFig('paral')"/>
     <label for="escTrap">Trapézio</label><input type="radio" name="escForma" id="escTrap" onclick="selecaoFig('trap')"/></div>
+    </div>
 
+    <div>
     <div id="calcQuad">
-    <input type="number" name="base" id="base" />
-    <input type="number" name="altura" id="altura" />
+    <p>Existem três caixas de texto abaixo. É obrigatório que, pelo menos, duas das três caixas possuam valores numéricos. <br>
+    O campo que sobrar vazio será o campo que irá receber um resultado após o clique.</p>
+    <p id="inputQuad"><input type="text" name="txtBase" id="baseQuad" placeholder="Base" size="8"> x 
+    <input type="text" name="txtAltura" id="alturaQuad" placeholder="Altura" size="8"> = 
+    <input type="text" name="txtAreaQuad" id="areaQuad" placeholder="Área" size="8"></p>
+    </div>
     </div>
 </section>
 </body>

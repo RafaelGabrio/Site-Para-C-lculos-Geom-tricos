@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="_css/estilo.css"/>
-    <script src="_javascript/funcoes.js"></script>
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <script src="javascript/funcoes.js"></script>
 </head>
 
 <body>
 
-<header>Entre Em Contato! <a href="formulario.html"><img src="_imagens/icone-mail.png"></a><a href="https://www.facebook.com/rafael.gabrio.3" target="_blank"><img src="_imagens/icone_face.png"></a><a href="https://twitter.com/RafaelGabrioL" target="_blank"><img src="_imagens/icone_twitter.png"></a><a href="https://www.linkedin.com/in/rafael-g%C3%A1brio-1ab8491a1/" target="_blank"><img src="_imagens/icone_in.png"></a></header>
+<header>Entre Em Contato! <ul>
+    <li><a href="https://www.facebook.com/rafael.gabrio.3/" target="_blank"><img src="img/icone_face.png" alt="Ícone do Facebook"></a></li>
+    <li><a href="https://www.linkedin.com/in/rafael-g%C3%A1brio-1ab8491a1/" target="_blank"><img src="img/icone_in.png" alt="Ícone do Linkedin"></a></li>
+    <li><a href="https://twitter.com/RafaelGabrioL" target="_blank"><img src="img/icone_twitter.png" alt="Ícone do Twitter"></a></li>
+    <li><a href="formulario.html"><img src="img/icone-mail.png" alt="Icone do Formulário de Contato"></a></li>
+</ul></header>
 
 <section id="principal">
     <div id="texto">
@@ -19,14 +24,14 @@
     </div>
     <div id="interacao">
         <iframe src="escolha.html" id="iframeInteracao"></iframe>
-        <input type="image" src="_imagens/btnEnviar.png" alt="Enviar" onclick="selecionarOp()"/>
+        <input type="image" src="img/btnEnviar.png" alt="Botão apontando a direita para prosseguir" onclick="selecionarOp()"/>
     </div>
 </section>
 
 
-<p id="maisinfo"><img id="iconBaixo" src="_imagens/icone_baixo.png" alt="Apontando Para Baixo"/>Role para Baixo para Mais Informações!</p>
+<p id="maisinfo"><img id="iconBaixo" src="img/icone_baixo.png" alt="Apontando Para Baixo"/><a href="#informacao">Clique aqui para mais informações!</a></p>
 
-<section id="infomacao">
+<section id="informacao">
     <article>
         Aqui entra todas informações sobre os formatos geométricos.
     </article>

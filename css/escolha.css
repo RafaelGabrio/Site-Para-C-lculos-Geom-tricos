@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'); /*a font-family é 'Comfortaa', cursive*/
+
+/*Gerais*/
+body {
+    overflow: hidden;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+}
+
+/*Primeira pergunta*/
+img#imgrepre {
+    width: 250px;
+    position: relative;
+    margin-bottom: 100px;
+    margin: auto;
+}
+p#representacao {
+    position: relative;
+    text-align: center;
+}
+div{
+    position: relative;
+    margin-bottom: 200px;
+}
+div#opcoes1 {
+    position: absolute;
+    left: 35%;
+    transform: translate(-35%);
+    margin-top: 40px;
+}
+
+/*calQuad*/
+#calcQuad {
+    position: absolute;
+    left: 35%;
+    transform: translate(-35%);
+}
+#calcQuad p{
+    text-align: justify;
+}
+#calcQuad input {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 18px;
+    border: solid 3px rgb(157, 253, 12);
+}
+::-webkit-input-placeholder {
+    color: rgb(118, 192, 0);
+ }
+#inputQuad {
+    text-align: center;
+    color: rgb(118, 192, 0);
+}
